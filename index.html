@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>石垣島 4天3夜行程表</title>
+<style>
+  :root {
+    --sea-deep: #2c6e91;
+    --sea: #4a90c2;
+    --sea-light: #8fc1e3;
+    --sea-pale: #e8f4f8;
+    --sand: #fdfbf6;
+    --text: #3a4a52;
+    --text-muted: #7d939c;
+    --white: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    background: linear-gradient(180deg, var(--sea-pale) 0%, var(--sand) 400px);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 3.5rem 1.5rem 2.5rem;
+  }
+
+  .hero .wave {
+    font-size: 1.75rem;
+    color: var(--sea-light);
+    letter-spacing: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--sea-deep);
+    letter-spacing: 0.05em;
+  }
+
+  .hero p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 1.25rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .day-card {
+    background: var(--white);
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(74, 144, 194, 0.12);
+    overflow: hidden;
+  }
+
+  .day-header {
+    background: linear-gradient(120deg, var(--sea) 0%, var(--sea-deep) 100%);
+    color: var(--white);
+    padding: 1.1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+
+  .day-header .day-tag {
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    opacity: 0.85;
+  }
+
+  .day-header h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .day-header .day-date {
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+
+  .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 1.4rem 1.5rem 1.6rem;
+    position: relative;
+  }
+
+  .timeline li {
+    display: grid;
+    grid-template-columns: 3rem 1.1rem 1fr;
+    align-items: start;
+    gap: 0.9rem;
+    padding: 0.65rem 0;
+  }
+
+  .timeline .time {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--sea-deep);
+    text-align: right;
+    padding-top: 0.1rem;
+  }
+
+  .timeline .dot {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background: var(--sea);
+    margin-top: 0.35rem;
+    box-shadow: 0 0 0 4px var(--sea-pale);
+  }
+
+  .timeline .content .activity {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .timeline .content .note {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .timeline .content .flight-note {
+    color: var(--sea-deep);
+  }
+
+  .alert {
+    margin: 0 1.5rem 1.5rem;
+    padding: 0.9rem 1.1rem;
+    background: #fff6ea;
+    border: 1px solid #f3d9a8;
+    border-radius: 0.9rem;
+    font-size: 0.85rem;
+    color: #8a6a2c;
+  }
+
+  .alert strong {
+    color: #a3721f;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem 1.5rem 3rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 480px) {
+    .timeline li {
+      grid-template-columns: 2.5rem 1rem 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wave">〜〜〜</div>
+  <h1>石垣島 4天3夜</h1>
+  <p>2026/07/22 - 2026/07/25</p>
+</div>
+
+<main>
+
+  <section class="day-card">
+    <div class="day-header">
+      <span class="day-tag">DAY 1</span>
+      <h2>抵達 &amp; 市區採買</h2>
+      <span class="day-date">7/22（三）</span>
+    </div>
+    <ul class="timeline">
+      <li>
+        <span class="time">03:30</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">出發前往機場</span>
+          <span class="note flight-note">✈ 虎航 IT736　桃園 06:35 → 石垣島 08:35</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">09:30</span><span class="dot"></span>
+        <span class="content"><span class="activity">入境、通關</span></span>
+      </li>
+      <li>
+        <span class="time">10:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">取車</span></span>
+      </li>
+      <li>
+        <span class="time">10:30</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">石垣市公設市場</span>
+          <span class="note">順便市區晃晃</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">12:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">市區午餐</span></span>
+      </li>
+      <li>
+        <span class="time">13:30</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">唐吉軻德</span>
+          <span class="note">也可挪到 Day 2</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">15:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">Check-in 休息</span></span>
+      </li>
+      <li>
+        <span class="time">17:00</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">超市採買</span>
+          <span class="note">美崎町 / 八重山店</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">19:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">回住處煮飯</span></span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="day-card">
+    <div class="day-header">
+      <span class="day-tag">DAY 2</span>
+      <h2>半環島日</h2>
+      <span class="day-date">7/23（四）</span>
+    </div>
+    <ul class="timeline">
+      <li>
+        <span class="time">10:30</span><span class="dot"></span>
+        <span class="content"><span class="activity">晚點起床，悠閒出發</span></span>
+      </li>
+      <li>
+        <span class="time">11:30</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">知念商會 早午餐</span>
+          <span class="note">飯糰</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">13:00</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">Parlour Papaya</span>
+          <span class="note">果汁店</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">14:00</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">米原海灘 看海踩水</span>
+          <span class="note">或改找間咖啡廳坐坐，視當天心情彈性選擇</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">16:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">川平公園展望台</span></span>
+      </li>
+      <li>
+        <span class="time">18:00</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">Tantantei Steakhouse</span>
+          <span class="note">石垣牛排</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">21:00</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">提早休息</span>
+          <span class="note">隔天浮潛體力要留著</span>
+        </span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="day-card">
+    <div class="day-header">
+      <span class="day-tag">DAY 3</span>
+      <h2>浮潛日</h2>
+      <span class="day-date">7/24（五）</span>
+    </div>
+    <ul class="timeline">
+      <li>
+        <span class="time">08:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">浮潛接送</span></span>
+      </li>
+      <li>
+        <span class="time">15:30</span><span class="dot"></span>
+        <span class="content"><span class="activity">浮潛結束</span></span>
+      </li>
+      <li>
+        <span class="time">16:30</span><span class="dot"></span>
+        <span class="content"><span class="activity">回住處梳洗休息</span></span>
+      </li>
+      <li>
+        <span class="time">17:00</span><span class="dot"></span>
+        <span class="content"><span class="activity">還車</span></span>
+      </li>
+      <li>
+        <span class="time">18:00</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">搭公車回市區</span>
+          <span class="note">體驗在地公車</span>
+        </span>
+      </li>
+      <li>
+        <span class="time">19:30</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">燒肉天國 吃到飽</span>
+        </span>
+      </li>
+    </ul>
+    <div class="alert">
+      <strong>⚠️ 提醒：</strong>車已於今日還掉，明天（Day 4）清晨要出發去機場，石垣島清晨公車班次很少，請提前預約計程車或確認住宿處接駁。
+    </div>
+  </section>
+
+  <section class="day-card">
+    <div class="day-header">
+      <span class="day-tag">DAY 4</span>
+      <h2>返程</h2>
+      <span class="day-date">7/25（六）</span>
+    </div>
+    <ul class="timeline">
+      <li>
+        <span class="time">06:40</span><span class="dot"></span>
+        <span class="content"><span class="activity">出發前往機場</span></span>
+      </li>
+      <li>
+        <span class="time">07:10</span><span class="dot"></span>
+        <span class="content">
+          <span class="activity">抵達機場</span>
+          <span class="note flight-note">✈ 虎航 IT737　石垣島 09:25 → 桃園 09:35</span>
+        </span>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>石垣島之旅 · 好好玩、好好吃、好好放鬆 〜</footer>
+
+</body>
+</html>
