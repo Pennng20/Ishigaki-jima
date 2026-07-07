@@ -84,20 +84,24 @@
   .day-header .day-tag {
     font-size: 1.05rem;
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.03em;
     opacity: 0.9;
-  }
-
-  .day-header h2 {
-    margin: 0;
-    font-size: 1.15rem;
-    font-weight: 700;
+    order: 1;
   }
 
   .day-header .day-date {
     font-size: 1.05rem;
     font-weight: 600;
     opacity: 0.95;
+    order: 2;
+  }
+
+  .day-header h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    flex-basis: 100%;
+    order: 3;
   }
 
   .timeline {
@@ -167,6 +171,10 @@
   @media (max-width: 480px) {
     .timeline li {
       grid-template-columns: 2.5rem 1rem 1fr;
+    }
+
+    .food-list li {
+      grid-template-columns: 1.1rem 1fr;
     }
   }
 </style>
